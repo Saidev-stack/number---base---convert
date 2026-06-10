@@ -11,6 +11,6 @@ This programme allows to convert numbers between the different bases :
 The conversion algorithms were implemented manually without relying on Python built-in functions such as bin(), oct(), or hex()
 ## Programming Language
 - Python
-## Auteur
+## Author
 Said Hamlat
 Computer science student at Jean Monnet University of Saint-Etienne
