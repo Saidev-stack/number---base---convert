@@ -11,9 +11,9 @@ def find_inb16 (n_inb16):
     """
     n_inb16 = n_inb16.upper()
     b16_lettres = ['A','B','C','D','E','F']
-    valeus = [10, 11, 12, 13, 14, 15]
+    values = [10, 11, 12, 13, 14, 15]
     if n_inb16 in b16_lettres:    
-        return valeus[b16_lettres.index(n_inb16)]
+        return values[b16_lettres.index(n_inb16)]
     else:
         return int(n_inb16)    
 #Find the b16 value for decimel number
@@ -28,9 +28,9 @@ def hex_of_dec (n_in_b10):
     The value in B10
     """
     b16_lettres = ['A','B','C','D','E','F']
-    valeus = [10, 11, 12, 13, 14, 15]
-    if n_in_b10 in valeus:    
-        return b16_lettres[valeus.index(n_in_b10)]
+    values = [10, 11, 12, 13, 14, 15]
+    if n_in_b10 in values:    
+        return b16_lettres[values.index(n_in_b10)]
     else:
         return str(n_in_b10) 
 #Convert the number from any base _Binary to Hexadecimal_ bases to decimal base  
